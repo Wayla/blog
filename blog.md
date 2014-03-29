@@ -51,7 +51,7 @@ Our stack consists of:
 
 ## Architecture
 
-We use a single codebase to support our mobile app and desktop site. We rely heavily on CSS media queries to pull this off. We also
+We use a single codebase to support our mobile app and desktop site. We rely heavily on CSS media queries to pull this off. We also perform device detection and media query detection in our javascript
 
 The only actual production server we maintain ourselves is an AWS server that serves all of our environments. That server:
 - runs an instance of nginx
