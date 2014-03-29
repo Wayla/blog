@@ -189,8 +189,9 @@ Placehold.it
 
 Visit <a href=http://placehold.it>placehold.it</a> for placeholder images. It's Lorem Ipsum for your images!
 
-Multiple Models Per View
+Multiple Models/Collections Per View
 ---------------------
+Before using ractive.js, I was using plain old Backbone and Marionette to manage my views. Both plain onld Backbone and Marionette seem to be built around the idea that each view be paired with either a single model or collection. I found myself getting frustrated creating nested views with Marionette as each view would require a bit of setup code that I felt like I was really redundant. With Ractive, I end up binding more than one model and/or collection per Ractive instance. So something like:
 
 ```
 
